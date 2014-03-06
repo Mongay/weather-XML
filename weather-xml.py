@@ -27,7 +27,7 @@ for ciudad in ciudades:
 	elementos = etree.fromstring(resultado.txt.encode("utf-8"))
 
 	city = raiz.find("city")
-	city.attrib["name]
+	city.attrib["name"]
 	tempminima = raiz.find["temperature")
 	minima = round(float(tempminima.attrib["min"]),1)
 	tempmaxima = raiz.find("temperature")
