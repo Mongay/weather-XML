@@ -34,7 +34,7 @@ for ciudad in ciudades:
 	maxima = round(float(tempmaxima.attrib["max"]),1)
 	velviento = raiz.find["wind/speed"]
 	viento = round(float(velviento.attrib["value"]),1)
-	direcviento = raiz.find("wind/direction)
+	direcviento = raiz.find("wind/direction")
 	direccion = direcviento.attrib["code"]
 	
 
